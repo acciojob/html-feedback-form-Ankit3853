@@ -8,17 +8,17 @@
 
 <body>
 	<form action="/html-feedback" method="post">
-		<label for="Name"> Name:</label>
+		<label for="name"> Name:</label>
 		<input type="text" id="name" name="name" minlength="3", maxlength="50", required>
 		
-		<label for="Portfolio"> Portfolio:</label>
-		<input type="url" id="portfolio" required> 
+		<label for="portfolio"> Portfolio:</label>
+		<input type="url" id="portfolio" name="portfolio" required> 
 		
-		<label for="Favorite Color"> Favorite Color:</label>
-		<input type="color" id="favColor" > 
+		<label for="favColor"> Favorite Color:</label>
+		<input type="color" id="favColor" name="favColor"> 
 		
-		<label for="Likeness"> Likeness:</label>
-		<input type="Range" min="1", max="100", required >
+		<label for="likeness"> Likeness:</label>
+		<input type="Range" id="likeness" name ="likeness" min="1", max="100", required >
 		
 	</form>
 	<!-- the entire body must be written by student -->
